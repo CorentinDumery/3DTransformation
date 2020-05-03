@@ -3,8 +3,11 @@
 
 **Disclaimer**: the objective of this study is not the development of an efficient 3D Segmentation method, but instead the evaluation of a data transformation method prior to segmentation. For 3D Segmentation repositories, see [this page](https://github.com/topics/3d-segmentation). This project was conducted as part of CS5228 - Knowledge Discovery and Data Mining for the National University of Singapore.
 
-[abstract here]
-[link to study]
+### Abstract
+
+We define a data transformation method based on existing literature, and use well-known clustering algorithms to generate a simple 3D segmentation. A human-generated ground truth segmentation is used to evaluate the segmentation results. Consequently, we are able to measure the improvement brought by the data transformation. Experiments are then performed to determine in which conditions this spectral transformation yields the best results. 
+
+Please read the full paper [here](https://github.com/CorentinDumery/3DTransformation/blob/master/Evaluation%20of%20a%20Spectral%20Data%20Transformation%20Method%20for%20Meaningful%20Mesh%20Segmentation.pdf) for more detail.
 
 ### Implementation
 
@@ -21,7 +24,9 @@ The inputs are located in:
  
  ### Examples
  
+ ![My planet](https://github.com/CorentinDumery/3DTransformation/blob/master/examples/glassesC.png)
+  
  ![My planet](https://github.com/CorentinDumery/3DTransformation/blob/master/examples/handC.png)
  
- ![My planet](https://github.com/CorentinDumery/3DTransformation/blob/master/examples/glassesC.png)
+
 
